@@ -15,7 +15,6 @@ pipeline {
     }
   }
   stage('Test'){
-    error it issss
     steps{
     sh './output'
   }
